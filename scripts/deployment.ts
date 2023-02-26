@@ -9,7 +9,7 @@ const PROPOSALS: any[] = [];
 const network = "goerli";
 // const apiKey = process.env.ALCHEMY_API_KEY;
 const apiKey = process.env.INFURA_API_KEY;
-const privateKey =  process.env.PRIVATE_KEY;
+const privateKey =  process.env.PRIVATE_KEY_1;
 
 
 
