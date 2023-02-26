@@ -3,7 +3,12 @@ import * as dotenv from 'dotenv';
 import { argv } from 'node:process';
 import { Ballot__factory } from '../typechain-types';
 
+
 dotenv.config({path: '../.env'});
+
+// script should be called with arguments:
+// bytes32 proposal_1, ..., bytes32 proposal_i
+//
 
 const PROPOSALS: any[] = [];
 const network = "goerli";
